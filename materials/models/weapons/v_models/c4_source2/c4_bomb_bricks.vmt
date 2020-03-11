@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+	$basetexture "models/Weapons/v_models/c4_source2/c4_bomb_bricks_color_psd_a747451"
+	$bumpmap "models/Weapons/v_models/c4_source2/c4_bomb_bricks_normal"
+	$surfaceprop Plaster
+
+	$reflectivity "[0.04 0.04 0.04]"
+
+	$phong 1
+	$phongfresnelranges "[0.59 0.8 1]"
+	$phongdisablehalflambert 1
+	$phongexponent 1
+	$phongboost 0.02
+}

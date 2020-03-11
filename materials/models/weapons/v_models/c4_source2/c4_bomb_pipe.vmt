@@ -1,0 +1,17 @@
+VertexLitGeneric
+{
+	$basetexture "models/Weapons/v_models/c4_source2/c4_bomb_pipe_color_psd_8c0a77ee"
+	$surfaceprop Metal_Barrel
+
+	$envmap "env_cubemap"
+	$envmapmask "models/Weapons/v_models/c4_source2c4_bomb_pipe_gloss"
+	$envmaptint "[0.08 0.08 0.08]"
+	$envmapsaturation 0.57
+	$envmaplightscaleminmax "[0 0.70]"
+
+	$phong 1
+	$phongexponenttexture "models/Weapons/v_models/c4_source2/c4_bomb_pipe_gloss"
+	$phongfresnelranges "[0.17 0.58 1]"
+	$phongdisablehalflambert 1
+	$phongboost 40
+}

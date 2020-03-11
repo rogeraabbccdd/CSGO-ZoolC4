@@ -1,0 +1,17 @@
+VertexLitGeneric
+{
+	$basetexture "models/Weapons/v_models/c4_source2/c4_bomb_illuminated_color_psd_15fb58d0"
+	$surfaceprop Plaster
+
+	$phong 1
+	$phongexponenttexture "models/Weapons/v_models/c4_source2/c4_bomb_illuminated_gloss"
+	$phongfresnelranges "[0.41 0.7 0.7]"
+	$phongdisablehalflambert 1
+	$phongboost 1.31
+	$basemapalphaphongmask 1
+
+	$selfillum 1
+	$selfillummask "models/Weapons/v_models/c4_source2/c4_bomb_illuminated_illum_psd_a90d354"
+	
+	$color2 "[2 2 2]"
+}

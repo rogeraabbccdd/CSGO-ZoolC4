@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+	$basetexture "models/Weapons/v_models/c4_source2/c4_bomb_wires_color_psd_6ca3d918"
+	$bumpmap "models/Weapons/v_models/c4_source2/c4_bomb_wires_normal"
+	$surfaceprop Metalpanel
+
+	$phong 1
+	$phongfresnelranges "[0.36 0.68 1]"
+	$phongdisablehalflambert 1
+	$phongexponent 259
+	$phongboost 1.31
+}

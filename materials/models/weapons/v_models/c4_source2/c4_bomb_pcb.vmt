@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+	$basetexture "models/Weapons/v_models/c4_source2/c4_bomb_pcb_color_psd_7c6cebce"
+	$surfaceprop Computer
+
+	$phong 1
+	$phongexponenttexture "models/Weapons/v_models/c4_source2/c4_bomb_pcb_gloss"
+	$phongfresnelranges "[0.22 0.61 1]"
+	$phongdisablehalflambert 1
+	$phongboost 3.12
+}
