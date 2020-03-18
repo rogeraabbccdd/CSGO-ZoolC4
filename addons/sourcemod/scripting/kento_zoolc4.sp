@@ -3,7 +3,7 @@
 #include <cstrike>
 #include <sdkhooks>
 
-#pragma newdecls requiredw
+#pragma newdecls required
 
 #define VPATH "models/weapons/v_zoolc4.mdl"
 #define WPATH "models/weapons/w_zoolc4.mdl"
@@ -100,6 +100,7 @@ public void WeaponDeployPost(int client, int iWeapon)
 public void PostWeaponEquip(int client, int iWeapon) 
 {
 	char sname[64];
+	if(!IsValidEdict(iWeapon)) return;
 	if(!GetEdictClassname(iWeapon, sname, 64)) return;
 
 	if(StrEqual(sname, "weapon_c4"))
